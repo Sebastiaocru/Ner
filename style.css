@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background: black;
+  color: white;
+  
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  font-size: 2vw;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.search button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search button:hover {
+  background-color: #777;
+}
+
+section {
+  margin: 50px;
+  text-align: center;
+}
+img{
+  width: 100%;
+  
+}
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('Gala.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+
+
+#show{
+  min-height:400px;
+  background:url('avatar.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+ color: lightgrey;
+}
+#show h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#show p{
+  font-size:20px;
+}
+
+
+#sho{
+  min-height:400px;
+  background:url('gás.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+ color: lightgrey;
+}
+#sho h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#sho p{
+  font-size:20px;
+}
+#ema{
+ 
+}
+span{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+#ista{
+ 
+
+
+}
+
+
+#shor{
+  min-height:400px;
+  background:url('teclado.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+ color: lightgrey;
+}
+#shor h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#shor p{
+  font-size:20px;
+}
+
+
+
+#padaria{
+  background: #DC9B1F;
+
+  width: 35vw;
+  border-radius: 20px;
+  
+  height: 5vh;
+  font-size: 5vw;
+  text-align: center;
+  
+}
+#agricultura{
+    background: green;
+  width: 35vw;
+
+  border-radius: 20px;
+  
+  height: 5vh;
+  font-size: 5vw;
+  text-align: center;
+  
+}
+#receita{
+      background: red;
+      width: 35vw;
+      border-radius: 20px;
+
+      height: 5vh;
+      font-size: 5vw;
+      text-align: center;
+}
+#programa{
+        background: dodgerblue;
+        width: 35vw;
+        border-radius: 20px;
+  width: 35vw;
+
+        height: 5vh;
+        font-size: 5vw;
+        text-align: center;
+}
+
+
+
+#shoa{
+  min-height:400px;
+  background:url('sate.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+ color: lightgrey;
+}
+#shoa h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#shoa p{
+  font-size:20px;
+}
